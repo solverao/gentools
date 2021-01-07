@@ -38,7 +38,7 @@ return [
   'presenter' => [
 
     # Namespace Services.
-    'namespace' =>'\Presenteres'
+    'namespace' =>'\Presenters'
 
   ],
 
