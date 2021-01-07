@@ -28,37 +28,6 @@ class RepositoryMakeCommand extends GeneratorCommand
      */
     protected $type = 'Repository';
 
-     /**
-     * Execute the console command.
-     *
-     * @return void
-     */
-    public function handle()
-    {
-        if (parent::handle() === false && ! $this->option('force')) {
-            return false;
-        }
-
-        if ($this->option('interface')) {
-            $this->createInterface();
-        }
-    }
-
-    /**
-     * Create a migration file for the model.
-     *
-     * @return void
-     */
-    protected function createInterface()
-    {
-        $table = Str::snake(Str::pluralStudly(class_basename($this->argument('name'))));
-            dd($table);
-        $this->call('make:interface', [
-            'name' => "create_{$table}_table",
-            '--create' => $table,
-        ]);
-    }
-
     /**
      * Get the stub file for the generator.
      *
@@ -76,21 +45,6 @@ class RepositoryMakeCommand extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return $rootNamespace . config('gentools.repository.namespace');
-    }
-
-    /**
-     * Get the console command options.
-     *
-     * @return array
-     */
-    protected function getOptions()
-    {
-        return [
-            ['all', 'a', InputOption::VALUE_NONE, 'Assign model to repository'],
-            ['record', 'r', InputOption::VALUE_NONE, 'Create a new record for the repository'],
-            ['decorator', 'd', InputOption::VALUE_NONE, 'Create a new decorator for the repository'],
-            ['interface', 'i', InputOption::VALUE_NONE, 'Create a new interface for the repository'],
-        ];
+        return $rootNamespace . config('gentools.repository.namespace','\Repositories');
     }
 }
