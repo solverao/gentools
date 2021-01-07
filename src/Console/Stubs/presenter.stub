@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Repositories;
+
+use Semovicdmx\Gentools\Presenters\Presenter;
+
+class DummyClass extends Presenter
+{
+    //
+}

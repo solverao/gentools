@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Repositories;
+
+use Semovicdmx\Gentools\Repositories\BaseRepository;
+
+class DummyClass extends BaseRepository
+{
+    /**
+     * @return string
+     *  Return the model
+     */
+    public function model()
+    {
+        //return Model::class;
+    }
+
+    //
+}

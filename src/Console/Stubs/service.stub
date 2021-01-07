@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Repositories;
+
+use Semovicdmx\Gentools\Services\Service;
+
+class DummyClass extends Service
+{
+    //
+}

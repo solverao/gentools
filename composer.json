@@ -1,0 +1,36 @@
+{
+    "name": "solverao/gentools",
+    "description": "Make Repositories, presenterers and others general tools",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saul Olvera",
+            "email": "saul2olvera@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Semovicdmx\\Gentools\\" : "src/"
+        },
+        "files": ["src/helpers.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Semovicdmx\\Repos\\Tests\\" : "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Semovicdmx\\Gentools\\GentoolsServiceProvider"
+            ]
+        },
+        "aliases": {
+            "GenVal": "Semovicdmx\\Gentools\\Facades\\GenVal"
+        }
+    }
+}
