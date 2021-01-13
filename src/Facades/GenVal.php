@@ -1,6 +1,6 @@
 <?php
 
-namespace Semovicdmx\Gentools\Facades;
+namespace Solverao\Gentools\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

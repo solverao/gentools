@@ -1,6 +1,6 @@
 <?php
 
-namespace Semovicdmx\Gentools\Presenters;
+namespace Solverao\Gentools;
 
 use Illuminate\Database\Eloquent\Model;
 

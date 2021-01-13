@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Repositories\Collection;
+
+trait DummyClass
+{
+     /**
+     * @return Repository
+     *  Return BaseRepository
+     */
+    protected function repoExample()
+    {
+        return new ExampleRepository;
+    }
+}

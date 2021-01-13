@@ -1,11 +1,11 @@
 <?php
 
-namespace Semovicdmx\Gentools\Repositories;
+namespace Solverao\Gentools\Repositories;
 
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Collection;
-use Semovicdmx\Gentools\Exceptions\GentoolsException;
+use Solverao\Gentools\Exceptions\GentoolsException;
 
 /**
  * Class BaseRepository.

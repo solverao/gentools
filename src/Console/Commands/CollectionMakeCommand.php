@@ -4,36 +4,35 @@ namespace Solverao\Gentools\Console\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 
-class PresenterMakeCommand extends GeneratorCommand
+class ServiceMakeCommand extends GeneratorCommand
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $name = 'make:presenter';
+    protected $name = 'make:collection';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Create a new Presenter model class';
+    protected $description = 'Create a new Repositories Collection trait';
 
     /**
      * The type of class being generated.
      *
      * @var string
      */
-    protected $type = 'Presenter';
-
+    protected $type = 'Collection';
     /**
      * Get the stub file for the generator.
      *
      * @return string
      */
     protected function getStub(){
-        return __DIR__ . '/../Stubs/presenter.stub';
+        return __DIR__ . '/../Stubs/collection.stub';
     }
 
     /**
@@ -44,6 +43,6 @@ class PresenterMakeCommand extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return $rootNamespace . config('gentools.presenter.namespace','\Presenters');
+        return $rootNamespace . config('gentools.collection.namespace','\Repositories\Collections');
     }
 }

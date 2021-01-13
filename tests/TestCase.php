@@ -1,8 +1,8 @@
 <?php
 
-namespace Semovicdmx\Gentools\Tests;
+namespace Solverao\Gentools\Tests;
 
-use Semovicdmx\Gentools\ReposServiceProvider;
+use Solverao\Gentools\ReposServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

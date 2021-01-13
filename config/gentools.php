@@ -53,7 +53,24 @@ return [
   'service' => [
 
     # Namespace Services.
-    'namespace' =>'\Services'
+    'namespace' => '\Services'
 
   ],
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Collection
+  |--------------------------------------------------------------------------
+  |
+  | Manage Collection configurations.
+  |
+  */
+  'collection' => [
+
+    # Namespace Services.
+    'namespace' => '\Repositories\Collections'
+
+  ],
+
 ];

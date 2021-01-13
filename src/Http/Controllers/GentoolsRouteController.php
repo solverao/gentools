@@ -1,6 +1,6 @@
 <?php
 
-namespace Semovicdmx\Citas\Http\Controllers;
+namespace Solverao\Citas\Http\Controllers;
 
 use Illuminate\Filesystem\Filesystem;
 

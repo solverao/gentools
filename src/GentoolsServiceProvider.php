@@ -1,12 +1,11 @@
 <?php
 
-namespace Semovicdmx\Gentools;
+namespace Solverao\Gentools;
 
 use Illuminate\Support\ServiceProvider;
-use Semovicdmx\Gentools\Services\Validations\GenValidation;
-use Semovicdmx\Gentools\Console\Commands\ServiceMakeCommand;
-use Semovicdmx\Gentools\Console\Commands\PresenterMakeCommand;
-use Semovicdmx\Gentools\Console\Commands\RepositoryMakeCommand;
+use Solverao\Gentools\Console\Commands\ServiceMakeCommand;
+use Solverao\Gentools\Console\Commands\PresenterMakeCommand;
+use Solverao\Gentools\Console\Commands\RepositoryMakeCommand;
 
 class GentoolsServiceProvider extends ServiceProvider
 {

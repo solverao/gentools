@@ -1,8 +1,8 @@
 <?php
 
-namespace Semovicdmx\Gentools\Tests\Feature;
+namespace Solverao\Gentools\Tests\Feature;
 
-use Semovicdmx\Gentools\Tests\TestCase;
+use Solverao\Gentools\Tests\TestCase;
 
 class CanGetModulesTest extends TestCase
 {

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Semovicdmx\Citas\Http\Controllers\GentoolsController;
+use Solverao\Citas\Http\Controllers\GentoolsController;
 
 
 Route::prefix('gentools')->group(function () {

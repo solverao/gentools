@@ -1,6 +1,6 @@
 <?php
 
-namespace Semovicdmx\Gentools\Repositories;
+namespace Solverao\Gentools\Repositories;
 
 /**
  * Interface RepositoryContract.

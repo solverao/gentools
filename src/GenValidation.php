@@ -1,10 +1,8 @@
 <?php
 
-namespace Semovicdmx\Gentools\Services\Validations;
+namespace Solverao\Gentools;
 
-use Semovicdmx\Gentools\Services\Service;
-
-class GenValidation extends Service
+class GenValidation
 {
     private $errors;
     private $responses;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Semovicdmx\Gentools\Console\Commands;
+namespace Solverao\Gentools\Console\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 

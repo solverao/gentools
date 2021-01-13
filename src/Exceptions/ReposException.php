@@ -1,6 +1,6 @@
 <?php
 
-namespace Semovicdmx\Gentools\Exceptions;
+namespace Solverao\Gentools\Exceptions;
 
 use Exception;
 

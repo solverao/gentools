@@ -14,23 +14,22 @@
     },
     "autoload": {
         "psr-4": {
-            "Semovicdmx\\Gentools\\" : "src/"
-        },
-        "files": ["src/helpers.php"]
+            "Solverao\\Gentools\\" : "src/"
+        }
     },
     "autoload-dev": {
         "psr-4": {
-            "Semovicdmx\\Repos\\Tests\\" : "tests/"
+            "Solverao\\Repos\\Tests\\" : "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Semovicdmx\\Gentools\\GentoolsServiceProvider"
+                "Solverao\\Gentools\\GentoolsServiceProvider"
             ]
         },
         "aliases": {
-            "GenVal": "Semovicdmx\\Gentools\\Facades\\GenVal"
+            "GenVal": "Solverao\\Gentools\\Facades\\GenVal"
         }
     }
 }

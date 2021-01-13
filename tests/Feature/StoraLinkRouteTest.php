@@ -1,9 +1,9 @@
 <?php
 
-namespace Semovicdmx\Pretools\Tests\Feature;
+namespace Solverao\Pretools\Tests\Feature;
 
 use Illuminate\Filesystem\Filesystem;
-use Semovicdmx\Pretools\Tests\TestCase;
+use Solverao\Pretools\Tests\TestCase;
 
 class StoraLinkRouteTest extends TestCase
 {

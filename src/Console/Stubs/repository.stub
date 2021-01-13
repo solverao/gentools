@@ -2,17 +2,17 @@
 
 namespace App\Repositories;
 
-use Semovicdmx\Gentools\Repositories\BaseRepository;
+use Solverao\Gentools\Repositories\BaseRepository;
 
 class DummyClass extends BaseRepository
 {
     /**
      * @return string
-     *  Return the model
+     *  Return model
      */
     public function model()
     {
-        //return Model::class;
+        return Model::class;
     }
 
     //
