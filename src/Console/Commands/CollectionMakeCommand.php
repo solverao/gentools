@@ -4,7 +4,7 @@ namespace Solverao\Gentools\Console\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 
-class ServiceMakeCommand extends GeneratorCommand
+class CollectionMakeCommand extends GeneratorCommand
 {
     /**
      * The name and signature of the console command.

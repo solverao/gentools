@@ -6,6 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Solverao\Gentools\Console\Commands\ServiceMakeCommand;
 use Solverao\Gentools\Console\Commands\PresenterMakeCommand;
 use Solverao\Gentools\Console\Commands\RepositoryMakeCommand;
+use Solverao\Gentools\Console\Commands\CollectionMakeCommand;
 
 class GentoolsServiceProvider extends ServiceProvider
 {
@@ -35,7 +36,8 @@ class GentoolsServiceProvider extends ServiceProvider
             $this->commands([
                 RepositoryMakeCommand::class,
                 PresenterMakeCommand::class,
-                ServiceMakeCommand::class
+                ServiceMakeCommand::class,
+                CollectionMakeCommand::class
             ]);
         }
     }

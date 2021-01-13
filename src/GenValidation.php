@@ -57,19 +57,11 @@ class GenValidation
         return $this->responses;
     }
 
-    public function errors(){
-        return $this->errors;
+    public function errors($key = null){
+        return is_null($key) ? $this->errors : $this->errors[$key] ?? null;
     }
 
-    public function responses(){
-        return $this->responses;
-    }
-
-    public function error($key){
-        return $this->errors[$key] ?? null;
-    }
-
-    public function response($key){
-        return $this->responses[$key] ?? null;
+    public function responses($key = null){
+        return is_null($key) ? $this->responses : $this->responses[$key] ?? null;
     }
 }
